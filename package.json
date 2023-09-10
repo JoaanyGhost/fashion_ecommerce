@@ -24,6 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@ng-icons/ionicons": "^25.2.0",
+    "angular-cli-ghpages": "^1.0.7",
     "isotope-layout": "^3.0.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
