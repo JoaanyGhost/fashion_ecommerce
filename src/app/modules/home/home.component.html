@@ -1,0 +1,210 @@
+<app-header></app-header>
+
+<div id="banner" class="banner ">
+
+
+  <div class="women">
+    <img src="../../../assets/images/women-1.jpg" alt="women">
+    <a href="#" class="switch-btn" (click)="switchBanner('left')">Women</a>
+
+    <div class="content">
+      <h1>Ladies' Fashion</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Porro voluptates necessitatibus consequatur? Accusantium est
+        iste vel obcaecati debitis facilis aliquam inventore molestiae
+        laudantium perferendis tempore harum in, voluptatibus esse temporibus?
+      </p>
+      <a href="#">Shop around <fa-icon [icon]="faCartShopping"></fa-icon></a>
+    </div>
+
+  </div>
+
+  <div class="men">
+    <img src="../../../assets/images/men-1.jpg" alt="men">
+    <a href="#" class="switch-btn" (click)="switchBanner('middle')">Men</a>
+
+    <div class="content">
+      <h1>Men with Taste</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Porro voluptates necessitatibus consequatur? Accusantium est
+        iste vel obcaecati debitis facilis aliquam inventore molestiae
+        laudantium perferendis tempore harum in, voluptatibus esse temporibus?
+      </p>
+      <a href="#">Shop around <fa-icon [icon]="faCartShopping"></fa-icon></a>
+    </div>
+
+  </div>
+
+  <div class="special">
+    <img src="../../../assets/images/special-1.jpg" alt="special">
+    <a href="#" class="switch-btn" (click)="switchBanner('right')">Special</a>
+
+    <div class="content">
+      <h1>Be a cool young</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Porro voluptates necessitatibus consequatur? Accusantium est
+        iste vel obcaecati debitis facilis aliquam inventore molestiae
+        laudantium perferendis tempore harum in, voluptatibus esse temporibus?
+      </p>
+      <a href="#">Shop around <fa-icon [icon]="faCartShopping"></fa-icon></a>
+    </div>
+
+  </div>
+
+  <a href="#" class="reset" (click)="closeBanner()"><fa-icon [icon]="faEye"></fa-icon></a>
+  <a href="#" class="reset-close" (click)="closeBanner()"><fa-icon [icon]="faEyeSlash"></fa-icon></a>
+
+</div>
+
+<main>
+
+  <section class="call-up">
+
+    <div class="call-up-box">
+
+      <fa-icon [icon]="faPaperPlane"></fa-icon>
+
+      <div>
+
+        <h4>Free Shipping</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Porro suscipit laboriosam quia repudiandae voluptatem corporis
+          veritatis aliquid ipsum quisquam quasi eligendi quod, temporibus?
+        </p>
+
+      </div>
+    </div>
+
+    <div class="call-up-box">
+
+      <fa-icon [icon]="faCreditCard"></fa-icon>
+
+      <div>
+
+        <h4>Security Payment</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Porro suscipit laboriosam quia repudiandae voluptatem corporis
+          veritatis aliquid ipsum quisquam quasi eligendi quod, temporibus?
+        </p>
+
+      </div>
+    </div>
+
+    <div class="call-up-box">
+
+      <fa-icon [icon]="faMoneyBill"></fa-icon>
+
+      <div>
+
+        <h4>14 Days Return</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Porro suscipit laboriosam quia repudiandae voluptatem corporis
+          veritatis aliquid ipsum quisquam quasi eligendi quod, temporibus?
+        </p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <app-about id="about">
+  </app-about>
+
+  <app-products id="products">
+  </app-products>
+
+
+  <!-- INSCRIBIRSE EN LA PAGINA -->
+  <section class="newsletter">
+    <div class="newsletter-box">
+      <fa-icon [icon]="faEnvelope"></fa-icon>
+      <h4>Sign up for newsletter</h4>
+    </div>
+
+    <p>Seasonal discount from <span class="discount">20%</span></p>
+
+    <form action="">
+      <input type="text" placeholder="Email">
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+
+  <!-- SESIÓN DE CONTACTO  -->
+  <section class="contact" id="contact">
+
+    <div class="map">
+      <iframe
+      style="border: 0; width: 100%; height: 350px;"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.1738549758347!2d-74.04790228526636!3d4.761200069763834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8593cfb53fab%3A0x7e1314c3e84e41a2!2sCentro%20Comercial%20Santaf%C3%A9%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1694224460970!5m2!1ses!2sco"
+      frameborder="0"
+      allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="info-wrap">
+      <div class="info">
+        <fa-icon [icon]="faMapLocationDot"></fa-icon>
+        <h4>Location:</h4>
+        <p>
+          Costado Occidental, Autopista Nte. #45 - 03, Suba,
+          <br>
+          Bogotá - Colombia
+        </p>
+      </div>
+
+      <div class="info">
+        <fa-icon [icon]="faEnvelope"></fa-icon>
+        <h4>Email:</h4>
+        <p>
+          fashion_ecommerce@example.com
+          <br>
+          contact_ecommerce@example.com
+        </p>
+      </div>
+
+      <div class="info">
+        <fa-icon [icon]="faPhone"></fa-icon>
+        <h4>Call:</h4>
+        <p>
+          315 - 6976972
+          <br>
+          9336547
+        </p>
+      </div>
+
+    </div>
+
+    <form action="" class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Your Nombre">
+        <input type="email" placeholder="Your Email">
+      </div>
+
+      <div class="form-group">
+        <input type="text" placeholder="Subject">
+      </div>
+
+      <div class="form-group">
+        <textarea name="Message" rows="5" placeholder="Message"></textarea>
+      </div>
+
+      <div class="text-center">
+        <button type="submit">Send Message</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+
+<app-footer>
+</app-footer>
+
+<a href="#" (click)="scrollTop()" class="back-to-top" [class.active]="isBackTopScrolled">
+  <fa-icon [icon]="faArrowUp"></fa-icon>
+</a>
+

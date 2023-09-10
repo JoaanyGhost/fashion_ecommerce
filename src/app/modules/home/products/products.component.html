@@ -1,0 +1,52 @@
+<section id="products" class="products">
+  <!-- FILTROS DE PRODUCTOS -->
+
+  <ul id="products-filters" #filters>
+    <li [class.active]="selectedFilter === '*'" data-filter="*">All</li>
+    <li [class.active]="selectedFilter === '.filter-women'" data-filter=".filter-women">Women</li>
+    <li [class.active]="selectedFilter === '.filter-men'" data-filter=".filter-men">Men</li>
+    <li [class.active]="selectedFilter === '.filter-special'" data-filter=".filter-special">Special</li>
+  </ul>
+
+
+
+
+
+  <!-- PRODUCTO CONTAINER -->
+
+  <div class="product-container">
+
+     <!-- ARTICULOS DEL PRODUCTO -->
+    <div class="product-item" *ngFor="let product of listaDeProductos"  ngClass="{{product.tipo}}">
+      <span class="hot" *ngIf="product.descuento" >HOT</span>
+      <img [src]="product.img" alt="Shoes">
+      <div class="product-info">
+        <!--  CALIFICACIÓN DE 5 ESTRELLAS -->
+        <ul  class="product-rating">
+          <li><fa-icon [icon]="faStar"></fa-icon></li>
+          <li><fa-icon [icon]="faStar"></fa-icon></li>
+          <li><fa-icon [icon]="faStar"></fa-icon></li>
+          <li><fa-icon [icon]="faStar"></fa-icon></li>
+          <li><fa-icon [icon]="faStar"></fa-icon></li>
+        </ul>
+        <h4>{{product.texto}}</h4>
+        <p>
+          <span *ngIf="product.descuento" class="cross">${{product.precioDescuento}}</span>
+          <span class="price">${{product.precio}}</span>
+        </p>
+      </div>
+
+      <a href="" class="add-to-bag">
+        <fa-icon [icon]="faCartPlus"></fa-icon>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="loading-more">
+    <a href="#">
+      explore more <fa-icon [icon]="faArrowRight"></fa-icon>
+    </a>
+  </div>
+
+</section>
