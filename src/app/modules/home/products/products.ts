@@ -5,7 +5,7 @@ export const productos = [
     precioDescuento: 160.99,
     descuento: true,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/cloth-women-1.jpg"
+    img: "./assets/images/cloth-women-1.jpg"
   },
   {
     tipo: "filter-special",
@@ -13,7 +13,7 @@ export const productos = [
     precioDescuento: 260.99,
     descuento: true,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/shoes/sneaker-2.jpg"
+    img: "./assets/images/shoes/sneaker-2.jpg"
   },
   {
     tipo: "filter-women",
@@ -21,7 +21,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/cloth-women-2.jpg"
+    img: "./assets/images/cloth-women-2.jpg"
   },
   {
     tipo: "filter-men",
@@ -29,7 +29,7 @@ export const productos = [
     precioDescuento: 160.99,
     descuento: true,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/jacket-men-1.jpg"
+    img: "./assets/images/jacket-men-1.jpg"
   },
   {
     tipo: "filter-women",
@@ -37,7 +37,7 @@ export const productos = [
     precioDescuento: 190.99,
     descuento: true,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/cloth-women-3.jpg"
+    img: "./assets/images/cloth-women-3.jpg"
   },
   {
     tipo: "filter-men",
@@ -45,7 +45,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/jacket-men-2.jpg"
+    img: "./assets/images/jacket-men-2.jpg"
   },
 
   {
@@ -54,7 +54,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/shoes/sneaker-3.jpg"
+    img: "./assets/images/shoes/sneaker-3.jpg"
   },
   {
     tipo: "filter-men",
@@ -62,7 +62,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/men-2.jpg"
+    img: "./assets/images/men-2.jpg"
   },
   {
     tipo: "filter-women",
@@ -70,7 +70,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/women-2.jpg"
+    img: "./assets/images/women-2.jpg"
   },
   {
     tipo: "filter-special",
@@ -78,7 +78,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/special-2.jpg"
+    img: "./assets/images/special-2.jpg"
   },
   {
     tipo: "filter-special",
@@ -86,7 +86,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/special-3.jpg"
+    img: "./assets/images/special-3.jpg"
   },
   {
     tipo: "filter-special",
@@ -94,7 +94,7 @@ export const productos = [
     precioDescuento: 290.20,
     descuento: true,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/sunglasses/sunglasses-3.jpg"
+    img: "./assets/images/sunglasses/sunglasses-3.jpg"
   },
   {
     tipo: "filter-special",
@@ -102,7 +102,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/shoes/shoes-women.jpg"
+    img: "./assets/images/shoes/shoes-women.jpg"
   },
   {
     tipo: "filter-special",
@@ -110,7 +110,7 @@ export const productos = [
     precioDescuento: 0,
     descuento: false,
     texto: "Lorem ipsum dolor sit.",
-    img: "../../../../assets/images/sunglasses/sunglasses-2.jpg"
+    img: "./assets/images/sunglasses/sunglasses-2.jpg"
   }
 
 ];
